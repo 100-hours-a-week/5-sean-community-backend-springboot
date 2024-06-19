@@ -14,7 +14,7 @@ public class SampleApplication {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Calculator calcBean = context.getBean(Calculator.class);
 
-        System.out.println(calcBean.add(10, 5));
+//        System.out.println(calcBean.add(10, 5));
         System.out.println(calcBean.subtract(10, 5));
         System.out.println(calcBean.multiply(10, 5));
         System.out.println(calcBean.divide(10, 5));
